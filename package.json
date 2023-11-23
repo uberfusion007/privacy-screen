@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor-community/privacy-screen",
+  "name": "@uberfusion007/privacy-screen",
   "version": "4.2.2",
   "description": "Capacitor plugin that protects your app from displaying a screenshot in Recents screen/App Switcher.",
   "main": "dist/plugin.cjs.js",
@@ -7,20 +7,18 @@
   "types": "dist/esm/index.d.ts",
   "unpkg": "dist/plugin.js",
   "files": [
-    "android/src/main/",
-    "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorCommunityPrivacyScreen.podspec"
+    "Uberfusion007PrivacyScreen.podspec"
   ],
   "author": "Robin Genz <mail@robingenz.dev>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/capacitor-community/privacy-screen.git"
+    "url": "git+https://github.com/uberfusion007/privacy-screen.git"
   },
   "bugs": {
-    "url": "https://github.com/capacitor-community/privacy-screen/issues"
+    "url": "https://github.com/uberfusion007/privacy-screen/issues"
   },
   "keywords": [
     "capacitor",
@@ -73,9 +71,6 @@
   "capacitor": {
     "ios": {
       "src": "ios"
-    },
-    "android": {
-      "src": "android"
     }
   }
 }

@@ -22,18 +22,18 @@ import UIKit
 
     @objc public func enable(completion: (() -> Void)?) {
         self.isEnabled = true
-        DispatchQueue.main.async {
-            self.plugin.bridge?.webView?.disableScreenshots(imageName: self.config.imageName)
-            completion?()
-        }
+        // DispatchQueue.main.async {
+        //     self.plugin.bridge?.webView?.disableScreenshots(imageName: self.config.imageName)
+        //     completion?()
+        // }
     }
 
     @objc public func disable(completion: (() -> Void)?) {
         self.isEnabled = false
-        DispatchQueue.main.async {
-            self.plugin.bridge?.webView?.enableScreenshots()
-            completion?()
-        }
+        // DispatchQueue.main.async {
+        //     self.plugin.bridge?.webView?.enableScreenshots()
+        //     completion?()
+        // }
     }
 
     @objc public func handleWillResignActiveNotification() {
