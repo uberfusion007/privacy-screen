@@ -74,7 +74,11 @@ import UIKit
 
             let imageView = UIImageView()
             imageView.frame = CGRect(x: 0, y: 0, width: privacyViewController.view.bounds.width, height: privacyViewController.view.bounds.height)
-            imageView.contentMode = .center
+            if UITraitCollection.current.horizontalSizeClass == .regular && UITraitCollection.current.verticalSizeClass == .regular {
+                imageView.contentMode = .center
+            } else {
+                imageView.contentMode = .scaleAspectFill
+            }
             imageView.clipsToBounds = true
             imageView.image = UIImage(named: imageName)
             privacyViewController.view.addSubview(imageView)
