@@ -1,4 +1,5 @@
 import Foundation
+import Capacitor
 import WebKit
 import UIKit
 
@@ -40,6 +41,17 @@ import UIKit
         guard self.isEnabled else {
             return
         }
+
+        // Prevent privacy view controller from presenting two times
+        if self.privacyViewController.presentingViewController?.presentedViewController != nil {
+            DispatchQueue.main.async {
+                self.privacyViewController.dismiss(animated: false, completion: {
+                    self.plugin.bridge?.viewController?.present(self.privacyViewController, animated: false, completion: nil)
+                })
+            }
+            return
+        }
+
         DispatchQueue.main.async {
             self.plugin.bridge?.viewController?.present(self.privacyViewController, animated: false, completion: nil)
         }
