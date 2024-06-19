@@ -160,7 +160,7 @@ Only available for Android and iOS.
 ### addListener('screenRecordingStarted', ...)
 
 ```typescript
-addListener(eventName: 'screenRecordingStarted', listenerFunc: () => void) => Promise<PluginListenerHandle> & PluginListenerHandle
+addListener(eventName: 'screenRecordingStarted', listenerFunc: () => void) => Promise<PluginListenerHandle>
 ```
 
 Called when the screen recording is started.
@@ -172,7 +172,7 @@ Only available on iOS for now.
 | **`eventName`**    | <code>'screenRecordingStarted'</code> |
 | **`listenerFunc`** | <code>() =&gt; void</code>            |
 
-**Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt; & <a href="#pluginlistenerhandle">PluginListenerHandle</a></code>
+**Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt;</code>
 
 **Since:** 3.0.2
 
@@ -182,7 +182,7 @@ Only available on iOS for now.
 ### addListener('screenRecordingStopped', ...)
 
 ```typescript
-addListener(eventName: 'screenRecordingStopped', listenerFunc: () => void) => Promise<PluginListenerHandle> & PluginListenerHandle
+addListener(eventName: 'screenRecordingStopped', listenerFunc: () => void) => Promise<PluginListenerHandle>
 ```
 
 Called when the screen recording is stopped.
@@ -194,7 +194,7 @@ Only available on iOS for now.
 | **`eventName`**    | <code>'screenRecordingStopped'</code> |
 | **`listenerFunc`** | <code>() =&gt; void</code>            |
 
-**Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt; & <a href="#pluginlistenerhandle">PluginListenerHandle</a></code>
+**Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt;</code>
 
 **Since:** 3.0.2
 
@@ -204,7 +204,7 @@ Only available on iOS for now.
 ### addListener('screenshotTaken', ...)
 
 ```typescript
-addListener(eventName: 'screenshotTaken', listenerFunc: () => void) => Promise<PluginListenerHandle> & PluginListenerHandle
+addListener(eventName: 'screenshotTaken', listenerFunc: () => void) => Promise<PluginListenerHandle>
 ```
 
 Called when the screenshot is taken.
@@ -216,7 +216,7 @@ Only available on iOS for now.
 | **`eventName`**    | <code>'screenshotTaken'</code> |
 | **`listenerFunc`** | <code>() =&gt; void</code>     |
 
-**Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt; & <a href="#pluginlistenerhandle">PluginListenerHandle</a></code>
+**Returns:** <code>Promise&lt;<a href="#pluginlistenerhandle">PluginListenerHandle</a>&gt;</code>
 
 **Since:** 3.2.0
 

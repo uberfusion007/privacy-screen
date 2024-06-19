@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/capacitor-community/privacy-screen/compare/v4.2.4...v5.0.0) (2024-04-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* This plugin now only supports Capacitor 6.
+
+### Features
+
+* update to Capacitor 6 ([#89](https://github.com/capacitor-community/privacy-screen/issues/89)) ([eb4b4e6](https://github.com/capacitor-community/privacy-screen/commit/eb4b4e684e19a8af40be44c49356a36e3937e979))
+
+### [4.2.4](https://github.com/capacitor-community/privacy-screen/compare/v4.2.3...v4.2.4) (2024-03-08)
+
+
+### Bug Fixes
+
+* various issues with the preventing screenshots feature ([#87](https://github.com/capacitor-community/privacy-screen/issues/87)) ([1074e69](https://github.com/capacitor-community/privacy-screen/commit/1074e697f8d6069fe67d14b711946080116b9216))
+
 ### [4.2.3](https://github.com/capacitor-community/privacy-screen/compare/v4.2.2...v4.2.3) (2024-02-17)
 
 
